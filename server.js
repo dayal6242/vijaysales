@@ -36,6 +36,20 @@ app.get("/aboutus",(req,res)=>{
 
     );
 });
+app.get("/login",(req,res)=>{
+
+    res.send(
+        "<h1>Vijay sales</h1>"
+        +"<h3>Login form<h3/>"
+        +"<form>"
+        +"<input/>"
+        +"<br/>"
+        +"<input/>"
+        +"<button>login</button>"
+        +"</form>"
+
+    );
+});
 
 
 var server=app.listen(9000);
