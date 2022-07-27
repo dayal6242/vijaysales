@@ -1,0 +1,23 @@
+{
+  "name": "vijaysales",
+  "version": "1.0.0",
+  "description": "this is simple viajysales online shopping app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dayal6242/vijaysales.git"
+  },
+  "author": "ravi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dayal6242/vijaysales/issues"
+  },
+  "homepage": "https://github.com/dayal6242/vijaysales#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
